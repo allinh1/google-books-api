@@ -1,0 +1,43 @@
+@use "media" as media;
+
+#data {
+    display: grid;
+
+    @include media.phone {
+        grid-template-columns: 1fr;
+        }
+    
+    @include media.tablet {
+        grid-template-columns: repeat(2, 1fr);
+        }
+    
+    @include media.tablet-landscape {
+        grid-template-columns: repeat(2, 1fr);
+        }
+    
+    @include media.laptop {
+        grid-template-columns: repeat(3, 1fr);
+        }
+
+
+    .dispCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        border: 2px solid  rgb(241,223,231);
+        border-radius: 40px;
+        padding: 10px;
+    }
+}
+
+img {
+    max-width: 200px;
+    max-height: 250px;
+    
+    &:hover {
+        transform: scale(2);
+    }
+}
+
+

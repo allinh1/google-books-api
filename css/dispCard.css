@@ -1,0 +1,40 @@
+#data {
+  display: grid;
+}
+@media only screen and (max-width: 576px) {
+  #data {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  #data {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  #data {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 993px) {
+  #data {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+#data .dispCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  border: 2px solid #f1dfe7;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+img {
+  max-width: 200px;
+  max-height: 250px;
+}
+img:hover {
+  transform: scale(2);
+}
