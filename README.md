@@ -1,9 +1,8 @@
-# google-books-api
+<h1> # google-books-api <h1>
 
 This project was made with React, SASS and CSS
 
 Fetching data from an API and rendering to the page.
-
 
 Project Outline:
 Each book in the grid should have an image, author, title and description
@@ -28,4 +27,5 @@ When a user clicks a book in the grid, a modal should appear with more book info
 
 Resources:
 Google Books Documentation: https://developers.google.com/books/docs/v1/reference/volumes/list
+
 Fetch documentation: https://www.w3schools.com/js/js_api_fetch.asp
