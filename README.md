@@ -1,4 +1,4 @@
-<h1> # google-books-api <h1>
+<h1> # google-books-api </h1>
 
 This project was made with React, SASS and CSS
 
