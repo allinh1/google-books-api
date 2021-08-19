@@ -4,6 +4,8 @@ This project was made with React, SASS and CSS
 
 Fetching data from an API and rendering to the page.
 
+Viewable - https://allinh1.github.io/google-books-api/
+
 Project Outline:
 Each book in the grid should have an image, author, title and description
 The grid should be responsive on different screen sizes
